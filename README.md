@@ -54,7 +54,7 @@ The table presented below is sorted based on the R2 score of each model.
 
 | Model                  |    MAE    |   RMSE   |  R2 Score | 
 |------------------------|-----------|----------|-----------|
-| LR = 0.01              |   5.0165	 |  6.7490    |   0.9679  |
+| LR = 0.01              |   4.97633	 | 6.6999    |   0.96829 |
 | LR = 0.001             |            | | 	|       |
 | LR = 0.0001            |   |  |   |
 
