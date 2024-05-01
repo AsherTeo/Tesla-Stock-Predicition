@@ -4,7 +4,7 @@
 
 The table presented below is sorted based on the R2 score of each model.
 
-### 8-Window Size
+### 7-Window Size
 
 <details>
   <summary>7-Window Size</summary>
@@ -13,13 +13,13 @@ The table presented below is sorted based on the R2 score of each model.
 
 | Model                  |    MAE    |   RMSE   |  R2 Score | 
 |------------------------|-----------|----------|-----------|
-| ARIMA(7,1,0)           |  4.9708	 | 6.7132   | 0.96816   |
+| ARIMA(7,1,0)           |  4.9590	 | 6.6802   | 0.96847   |
 
 ### LSTM
 
 | Model                  |    MAE    |   RMSE   |  R2 Score | 
 |------------------------|-----------|----------|-----------|
-| LR = 0.01              |    5.0363	 |  6.7515    |   0.9677  |
+| LR = 0.01              |    4.9677	 |  6.6977    |   0.96831  |
 | LR = 0.001             |            | | 	|       |
 | LR = 0.0001            |   |  |   |
 
@@ -48,9 +48,7 @@ The table presented below is sorted based on the R2 score of each model.
 
 | Model                  |    MAE    |   RMSE   |  R2 Score | 
 |------------------------|-----------|----------|-----------|
-| ARIMA(30,1,0)          | 	5.263    |  6.939   |  0.9658   |
-| ARIMA(30,1,7)           ||  | 	|       |
-| ARIMA(30,1,8)           |  |  |   |
+| ARIMA(30,1,0)          | 	5.263    |  6.9429   |  0.96595  |
 
 ### LSTM
 
@@ -86,8 +84,7 @@ The table presented below is sorted based on the R2 score of each model.
 | Model                  |    MAE    |   RMSE   |  R2 Score | 
 |------------------------|-----------|----------|-----------|
 | ARIMA(60,1,0)           | 5.4316	   | 7.1240    | 0.9641 |
-| ARIMA(60,1,7)           ||  | 	|       |
-| ARIMA(60,1,8)           |  |  |   |
+
 
 ### LSTM
 
