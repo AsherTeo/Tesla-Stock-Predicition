@@ -21,7 +21,7 @@ The table presented below is sorted based on the R2 score of each model.
 
 | Model                  |    MAE    |   RMSE   |  R2 Score | 
 |------------------------|-----------|----------|-----------|
-| LR = 0.01              |    4.924	 |  6.67    |   0.9685  |
+| LR = 0.01              |    5.0363	 |  6.7515    |   0.9677  |
 | LR = 0.001             |            | | 	|       |
 | LR = 0.0001            |   |  |   |
 
@@ -29,22 +29,22 @@ The table presented below is sorted based on the R2 score of each model.
 
 | Model                 |   MAE    |   RMSE   |  R2 Score |
 |-----------------------|----------|----------|-----------|
-| Linear Regression     |  4.981   |  6.737   |   0.967   |
-| Ridge Regression      |  5.086   |  6.871   |   0.966   |
-| Gradient Boosting     |  5.789   |  7.618   |   0.959   |
-| Extra Tree            |  5.961   |  7.992   |   0.9548  |
-| LightGBM (LGM)        |  6.146   |  8.027   |   0.9544  |
-| Random Forest         |  6.044   |  8.049   |   0.9542  |
-| CatBoost (CAT)        |  6.408   |  8.454   |   0.949   |
-| XGBoost (XGB)         |  6.379   |  8.512   |   0.948   |
-| Elastic Net           | 28.3497  | 33.791   |   0.193   |
+| Linear Regression     |  4.9816   |  6.7375   |   0.9679   |
+| Ridge Regression      |  5.0865   |  6.8715   |   0.9666   |
+| Gradient Boosting     |  5.7893   |  7.6188   |   0.9590   |
+| Extra Tree            |  5.9610   |  7.9926   |   0.9548  |
+| LightGBM (LGM)        |  6.1465   |  8.0279   |   0.9544  |
+| Random Forest         |  6.0442   |  8.0498   |   0.9542  |
+| CatBoost (CAT)        |  6.4080   |  8.4544   |   0.9495   |
+| XGBoost (XGB)         |  6.3797   |  8.5125   |   0.9488   |
+| Elastic Net           | 28.3497   | 33.791    |   0.1935   |
 
 </details>
 
 ### 30-Window Size
 
 <details>
-  <summary>8-Window Size</summary>
+  <summary>30-Window Size</summary>
   
 ### ARIMA
 
@@ -81,15 +81,15 @@ The table presented below is sorted based on the R2 score of each model.
 ### 60-Window Size
 
 <details>
-  <summary>8-Window Size</summary>
+  <summary>60-Window Size</summary>
   
 ### ARIMA
 
 | Model                  |    MAE    |   RMSE   |  R2 Score | 
 |------------------------|-----------|----------|-----------|
-| ARIMA(8,1,0)           | 5.003	   | 6.758    | 0.9676 |
-| ARIMA(8,1,7)           ||  | 	|       |
-| ARIMA(8,1,8)           |  |  |   |
+| ARIMA(60,1,0)           | 5.4316	   | 7.1240    | 0.9641 |
+| ARIMA(60,1,7)           ||  | 	|       |
+| ARIMA(60,1,8)           |  |  |   |
 
 ### LSTM
 
@@ -103,14 +103,14 @@ The table presented below is sorted based on the R2 score of each model.
 
 | Model                 |   MAE    |   RMSE   |  R2 Score |
 |-----------------------|----------|----------|-----------|
-| Linear Regression     |  4.981   |  6.737   |   0.967   |
-| Ridge Regression      |  5.086   |  6.871   |   0.966   |
-| Gradient Boosting     |  5.789   |  7.618   |   0.959   |
-| Extra Tree            |  5.961   |  7.992   |   0.9548  |
-| LightGBM (LGM)        |  6.146   |  8.027   |   0.9544  |
-| Random Forest         |  6.044   |  8.049   |   0.9542  |
-| CatBoost (CAT)        |  6.408   |  8.454   |   0.949   |
-| XGBoost (XGB)         |  6.379   |  8.512   |   0.948   |
-| Elastic Net           | 28.3497  | 33.791   |   0.193   |
+| Ridge Regression      |  5.4760  |  7.1571  |   0.9638  |
+| Linear Regression     |  5.5622  |  7.2369  |   0.9630  |
+| Gradient Boosting     |  5.6785  |  7.4631  |   0.9606  |
+| Random Forest         |  5.6631  |  7.5703  |   0.9595  |
+| Extra Tree            |  5.7269  |  7.626   |   0.9589  |
+| LightGBM (LGM)        |  6.2235  |  8.2777  |   0.9516  |
+| XGBoost (XGB)         |  6.5618  |  8.9237  |   0.9437  |
+| CatBoost (CAT)        |  8.7157  | 11.0949  |   0.9130  |
+| Elastic Net           | 25.415   |  31.025  |   0.3200  |
 
 </details>
