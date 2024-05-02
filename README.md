@@ -81,14 +81,14 @@ The table presented below is sorted based on the R2 score of each model.
   
 ### ARIMA
 
-| Model                  |    MAE    |   RMSE   |  R2 Score | 
+| Model                  |    MAE    |   RMSE   |  MAPE (%) | 
 |------------------------|-----------|----------|-----------|
 | ARIMA(60,1,0)           | 5.4316	   | 7.1240    | 0.9641 |
 
 
 ### LSTM
 
-| Model                  |    MAE    |   RMSE   |  R2 Score | 
+| Model                  |    MAE    |   RMSE   |  MAPE (%) | 
 |------------------------|-----------|----------|-----------|
 | LR = 0.01              |    4.924	 |  6.67    |   0.9685  |
 | LR = 0.001             |            | | 	|       |
@@ -96,16 +96,16 @@ The table presented below is sorted based on the R2 score of each model.
 
 ### Machine Learning Models
 
-| Model                 |   MAE    |   RMSE   |  R2 Score |
+| Model                 |   MAE    |   RMSE   |  MAPE (%) |
 |-----------------------|----------|----------|-----------|
-| Ridge Regression      |  5.4760  |  7.1571  |   0.9638  |
-| Linear Regression     |  5.5622  |  7.2369  |   0.9630  |
-| Gradient Boosting     |  5.6785  |  7.4631  |   0.9606  |
-| Random Forest         |  5.6631  |  7.5703  |   0.9595  |
-| Extra Tree            |  5.7269  |  7.626   |   0.9589  |
-| LightGBM (LGM)        |  6.2235  |  8.2777  |   0.9516  |
-| XGBoost (XGB)         |  6.5618  |  8.9237  |   0.9437  |
-| CatBoost (CAT)        |  8.7157  | 11.0949  |   0.9130  |
-| Elastic Net           | 25.415   |  31.025  |   0.3200  |
+| Linear Regression     |  5.5622  |  7.2369  |   2.5704  |
+| Gradient Boosting     |  5.6747  |  7.4616  |   2.6456  |
+| Random Forest         |  5.7565  |  7.6322  |   2.6943  |
+| Extra Tree            |  6.111  |  7.9947   |   2.8482  |
+| Ridge Regression      |  6.3595  |  8.1879  |   2.9454  |
+| LightGBM (LGM)        |  6.4789  |  8.6404  |   2.9934  |
+| XGBoost (XGB)         |  6.6262  |  8.9633  |   3.0705  |
+| CatBoost (CAT)        |  8.7131  | 11.0934  |   4.0871  |
+| Elastic Net           | 53.1747   |  63.679  |   22.055  |
 
 </details>
