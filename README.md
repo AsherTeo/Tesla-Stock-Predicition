@@ -91,7 +91,7 @@ The table presented below is sorted based on the R2 score of each model.
 | Model                  |    MAE    |   RMSE   |  MAPE (%) | 
 |------------------------|-----------|----------|-----------|
 | LR = 0.01              |    4.924	 |  6.67    |   0.9685  |
-| LR = 0.001             |            | | 	|       |
+| LR = 0.001             |    4.955 |   6.770 	|   2.2849 |
 | LR = 0.0001            |   |  |   |
 
 ### Machine Learning Models
