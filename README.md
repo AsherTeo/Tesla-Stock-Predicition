@@ -7,7 +7,9 @@
 
 ## Overview
 
-In this project, I utilized the `yfinance` library to extract Tesla stock data and experimented with various prediction methods, including LSTM, ARIMA, and machine learning algorithms like linear regression and tree-based methods. LSTM, known for its proficiency in forecasting long sequences of data due to its memory cells and gating mechanisms, excels at capturing long-term dependencies. Conversely, ARIMA, focusing on the AutoRegressive (AR) component, is effective for modeling shorter-term relationships. I plan to further explore different window sizes to determine the optimal algorithm for stock prediction
+In this project, I utilized the `yfinance` library to extract Tesla stock data and experimented with various prediction methods, including LSTM, ARIMA, and machine learning algorithms like linear regression and tree-based methods. 
+
+LSTM, known for its proficiency in forecasting long sequences of data due to its memory cells and gating mechanisms, excels at capturing long-term dependencies. Conversely, ARIMA, focusing on the AutoRegressive (AR) component, is effective for modeling shorter-term relationships. I plan to further explore different window sizes to determine the optimal algorithm for stock prediction
 
 
 
