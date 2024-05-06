@@ -7,9 +7,13 @@
 
 ## Overview
 
-In this project, I utilized the `yfinance` library to extract Tesla stock data and experimented with various prediction methods, including `tensorflow` for LSTM, `statmodel` for ARIMA, and `scikit learn` machine learning algorithms like linear regression and tree-based methods. 
+In this project, we utilized the `yfinance` library to extract Tesla stock data and experimented with various prediction methods, employing `TensorFlow` for LSTM (Long Short-Term Memory ), `Statsmodels` for ARIMA, and `scikit-learn` machine learning algorithms like linear regression and tree-based methods. 
 
-LSTM, known for its proficiency in forecasting long sequences of data due to its memory cells and gating mechanisms, excels at capturing long-term dependencies. Conversely, ARIMA, focusing on the AutoRegressive (AR) component, is effective for modeling shorter-term relationships. I plan to further explore different window sizes to determine the optimal algorithm for stock prediction
+LSTM, known for its proficiency in forecasting long sequences of data due to its memory cells and gating mechanisms, excels at capturing **long-term** dependencies. Conversely, ARIMA, focusing on the AutoRegressive (AR) component, is effective for modeling **shorter-term** relationships. While machine learning techniques typically perform better in the short term than the long term.
+
+My objective is to explore different window sizes using various algorithms and learning rates for LSTM to determine the optimal approach for stock prediction. Additionally, I aim to identify which algorithm performs best for particular window sizes.
+
+For metrics, we experimented with MAE, RMSE, and MAPE, with a main focus on MAPE due to its relevance in time series analysis.
 
 
 
@@ -81,15 +85,15 @@ The table presented below is sorted based on the R2 score of each model.
 
 | Model                 |   MAE    |   RMSE   |  MAPE (%) |
 |-----------------------|----------|----------|-----------|
-| Linear Regression     | 4.984  | 6.7427    |   2.2895  |
-| Gradient Boosting     |  5.7921  |  7.5897  |  2.6958   |
-| Extra Tree            |  5.8089  |  7.8397  |   2.7085  |
-| Random Forest         |  6.1163  |  8.1563    |   2.8719  |
-| Ridge Regression      |  6.3457  | 8.2588    |   2.9281  |
-| LightGBM (LGM)        |  6.3476  |  8.4223  |   2.9562  |
-| CatBoost (CAT)        |  6.3637  |  8.5118 |   2.9580  |
-| XGBoost (XGB)         |  6.4597  |  8.5951  |  2.9762 |
-| Elastic Net           | 59.5591   | 69.9136   |   	24.856  |
+| Linear Regression     |  5.2877  | 6.9560    |   2.4366  |
+| Gradient Boosting     |  5.7181  |  7.6020  |  2.6707   |
+| Extra Tree            |  5.8089  |  8.0917  |   2.7830  |
+| Random Forest         |  6.0941  |  7.9411    |   2.8527  |
+| LightGBM (LGM)        |  6.2800  |  8.2970  |   2.9040  |
+| Ridge Regression      |  6.3593  | 8.2356    |   2.9360  |
+| XGBoost (XGB)         |  7.0187  |  9.1641  |  3.2768 |
+| CatBoost (CAT)        |  7.9380  |  10.239 |   3.7377  |
+| Elastic Net           | 56.7614   | 67.2448   |   	23.6125  |
 
 </details>
 
