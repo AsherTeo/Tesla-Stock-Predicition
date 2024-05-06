@@ -14,6 +14,9 @@ Given our understanding that LSTM excels in forecasting long sequences of data d
 ARIMA (AutoRegressive Integrated Moving Average), is a widely used statistical method for time series forecasting, effectively capturing a wide range of temporal behaviors, including trend, seasonality, and autocorrelation. However our project primarily emphasizes the AutoRegressive (AR) component. We identify the optimal AR component (p) by analyzing the Partial Autocorrelation Function (PACF) Plot, selecting lagged values above the significance threshold. Generally, we favor smaller values to prevent overfitting
 
 
+
+
+## Objective
 with various prediction methods, employing `TensorFlow` for LSTM (Long Short-Term Memory ), `Statsmodels` for ARIMA, and `scikit-learn` machine learning algorithms like linear regression and tree-based methods. 
 
 LSTM, known for its proficiency in forecasting long sequences of data due to its memory cells and gating mechanisms, excels at capturing **long-term** dependencies. Conversely, ARIMA, focusing on the AutoRegressive (AR) component, is effective for modeling **shorter-term** relationships. While machine learning techniques typically perform better in the short term than the long term.
@@ -21,9 +24,6 @@ LSTM, known for its proficiency in forecasting long sequences of data due to its
 My objective is to explore different window sizes using various algorithms and learning rates for LSTM to determine the optimal approach for stock prediction. Additionally, I aim to identify which algorithm performs best for particular window sizes.
 
 For metrics, we experimented with MAE (Mean Absolute Error), RMSE (Root Mean Square Error), and MAPE (Mean Absolute Percentage Error), with a primary focus on MAPE due to its relevance in time series analysis.
-
-## Objective
-
 1) Experiment with different window sizes - 7, 30, 60 for each algorthim
 2) Experiment with 
 
