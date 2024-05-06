@@ -13,15 +13,12 @@ LSTM, known for its proficiency in forecasting long sequences of data due to its
 
 My objective is to explore different window sizes using various algorithms and learning rates for LSTM to determine the optimal approach for stock prediction. Additionally, I aim to identify which algorithm performs best for particular window sizes.
 
-For metrics, we experimented with MAE, RMSE, and MAPE, with a main focus on MAPE due to its relevance in time series analysis.
-
-
-
-
+For metrics, we experimented with MAE (Mean Absolute Error), RMSE (Root Mean Square Error), and MAPE (Mean Absolute Percentage Error), with a primary focus on MAPE due to its relevance in time series analysis.
 
 ## Objective
 
-1) 
+1) Experiment with different window sizes - 7, 30, 60 for each algorthim
+2) Experiment with 
 
 ## Result
 
