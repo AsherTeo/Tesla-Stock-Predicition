@@ -15,13 +15,16 @@ Finally, we compared the results obtained from different algorithms using metric
 
 ## Objective
 
+The objective of this project is to determine the optimal window size for forecasting using ARIMA, LSTM, and machine learning algorithms. By experimenting with different window sizes, ranging from shorter to longer durations, the project aims to identify the most effective approach for predicting Tesla stock prices. This involves exploring how each method performs with various window sizes and comparing their accuracy in forecasting. Ultimately, the project seeks to understand whether shorter or longer window sizes are more suitable for each forecasting technique.
 
 ## Methodology
 
 **ARIMA** 
-1) Check if the graph is stationary by applying adf_test
-2) If adf_test is less than 0.05 mean it is stationary if not apply diffencing
-3) Repeated
+1) Split the data into training and testing sets, with a ratio of 80% for training and 20% for testing.
+2) Check if the time series data is stationary by applying the Augmented Dickey-Fuller (ADF) test.
+3) If the p-value obtained from the ADF test is less than 0.05, the data is considered stationary. If not, apply differencing to the data to make it stationary.
+4) Repeat steps 2-3 until the time series data becomes stationary.
+5) 
 
 
 ## Result
