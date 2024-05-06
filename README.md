@@ -7,7 +7,7 @@
 
 ## Overview
 
-In this project, we utilized the `yfinance` library to extract Tesla stock data and conducted experiments on the dataset spanning from January 1, 2019, to April 29, 2024. We focused exclusively on the 'Close' column of the data. 
+In this project, we utilized the `yfinance` library to extract Tesla stock data and conducted experiments on the dataset spanning from January 1, 2019, to April 29, 2024. We focused solely on the 'Close' column of the data. 
 
 Given our understanding that LSTM excels in forecasting long sequences of data due to its memory cells and gating mechanisms, which are proficient at capturing long-term dependencies, we have opted to utilize `TensorFlow` to experiment with different window sizes—specifically 7, 30, and 60, corresponding to 1 week, 1 month, and 2 months, respectively. For LSTM, we set the batch size to 8, employed two layers of LSTM with 50 neurons each, added 1 dense layer, and included dropout regularization. The model was trained for 400 epochs.
 
