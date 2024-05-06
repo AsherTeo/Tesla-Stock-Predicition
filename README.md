@@ -8,7 +8,7 @@
 ## Overview
 
 
-In this project, leveraging the `yfinance` library, we analyzed Tesla stock data from January 1, 2019, to April 29, 2024, focusing on the 'Close' column. Utilizing LSTM with `TensorFlow`, we experimented with different window sizes—7, 30, and 60 days—for forecasting. For LSTM, we configured a batch size of 8, utilized two layers with 50 neurons each, and trained for 400 epochs.
+In this project, we analyzed Tesla stock data using the `yfinance` library, spanning from January 1, 2019, to April 29, 2024, and focusing on the 'Close' column. Employing LSTM with TensorFlow, we experimented with various window sizes—7, 30, and 60 days—for forecasting, configuring a batch size of 8, employing two layers with 50 neurons each, and training for 400 epochs.
 
 We also explored the AutoRegressive (AR) component of ARIMA, determining the optimal AR component (p) with the `statsmodels` library and PACF Plot. Additionally, we investigated machine learning algorithms like linear regression, Random Forest, and XGBoost, converting the data into a supervised learning format to assess their effectiveness in time series forecasting.
 
