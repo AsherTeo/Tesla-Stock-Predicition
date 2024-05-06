@@ -11,7 +11,15 @@ In this project, I utilized the `yfinance` library to extract Tesla stock data a
 
 LSTM (Long Short-Term Memory) is a popular deep learning for predicting long sequences of data such as stock prices or text. Its unique structure includes memory cells and gating mechanisms that allow it to capture long-term dependencies in data, making it well-suited for tasks requiring understanding of context over extended periods. 
 
-ARIMA, or AutoRegressive Integrated Moving Average, is a widely used time series forecasting method. 
+ARIMA, or AutoRegressive Integrated Moving Average, is a widely used time series forecasting method. In this project, we focus solely on the AutoRegressive (AR) component, which models the relationship between the current observation and a specified number of lagged observations (previous values). The selection of the autoregressive component (p) is typically guided by the PACF plot analysis, with an emphasis on choosing a relatively small value. This approach ensures that the model captures the most relevant lagged observations while avoiding overfitting and maintaining model simplicity.
+
+
+
+
+
+
+
+
 
 
 ## Objective
