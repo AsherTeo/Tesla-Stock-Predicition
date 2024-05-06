@@ -7,13 +7,11 @@
 
 ## Overview
 
-In this project, we utilized the `yfinance` library to extract Tesla stock data and conducted experiments on the dataset spanning from January 1, 2019, to April 29, 2024. We focused solely on the 'Close' column of the data. 
 
-Given our understanding that **LSTM** (Long Short Term Memory) excels in forecasting long sequences of data due to its memory cells and gating mechanisms, which are proficient at capturing long-term dependencies, we have opted to utilize `TensorFlow` to experiment with different window sizes—specifically 7, 30, and 60, corresponding to 1 week, 1 month, and 2 months, respectively. For LSTM, we set the batch size to 8, employed two layers of LSTM with 50 neurons each, added 1 dense layer, and included dropout regularization. The model was trained for 400 epochs.
+In this project, leveraging the `yfinance` library, we analyzed Tesla stock data from January 1, 2019, to April 29, 2024, focusing on the 'Close' column. Utilizing LSTM with `TensorFlow`, we experimented with different window sizes—7, 30, and 60 days—for forecasting. For LSTM, we configured a batch size of 8, utilized two layers with 50 neurons each, and trained for 400 epochs.
 
-**ARIMA** (AutoRegressive Integrated Moving Average), is a widely used statistical method for time series forecasting, effectively capturing a wide range of temporal behaviors, including trend, seasonality, and autocorrelation. However our project primarily emphasizes the AutoRegressive (AR) component. We determine the optimal AR component (p) using `statsmodels` library to analyze the Partial Autocorrelation Function (PACF) Plot, selecting lagged values above the significance threshold. Generally, we favor smaller values to prevent overfitting. Additionally, we conduct experiments with other AR components to assess their performance
+We also explored the AutoRegressive (AR) component of ARIMA, determining the optimal AR component (p) with the `statsmodels` library and PACF Plot. Additionally, we investigated machine learning algorithms like linear regression, Random Forest, and XGBoost, converting the data into a supervised learning format to assess their effectiveness in time series forecasting.
 
-Lastly, we also experimented with machine learning algorithms such as linear regression, Random Forest, XGBoost, and others. We were curious to explore whether machine learning approaches could be effective in time series problems. To achieve this, we converted the time series data into a supervised learning format by utilizing past data as features and the target variable as the actual price.
 
 ## Objective
 with various prediction methods, employing `TensorFlow` for LSTM (Long Short-Term Memory ), `Statsmodels` for ARIMA, and `scikit-learn` machine learning algorithms like linear regression and tree-based methods. 
