@@ -7,7 +7,10 @@
 
 ## Overview
 
-In this project, we utilized the `yfinance` library to extract Tesla stock data and experimented with various prediction methods, employing `TensorFlow` for LSTM (Long Short-Term Memory ), `Statsmodels` for ARIMA, and `scikit-learn` machine learning algorithms like linear regression and tree-based methods. 
+In this project, we utilized the `yfinance` library to extract Tesla stock data and conducted experiments on the dataset spanning from January 1, 2019, to April 29, 2024. We focused exclusively on the 'Close' column of the data. Given LSTM's proficiency in forecasting long sequences of data, attributed to its memory cells and gating mechanisms, we employed `TensorFlow` to experiment with different window sizes—specifically 7, 30, and 60, corresponding to 1 week, 1 month, and 2 months, respectively. For LSTM, we set the batch size to 8, employed two layers of LSTM with 50 neurons each, added 1 dense layer, and included dropout regularization. The model was trained for 400 epochs.
+
+
+with various prediction methods, employing `TensorFlow` for LSTM (Long Short-Term Memory ), `Statsmodels` for ARIMA, and `scikit-learn` machine learning algorithms like linear regression and tree-based methods. 
 
 LSTM, known for its proficiency in forecasting long sequences of data due to its memory cells and gating mechanisms, excels at capturing **long-term** dependencies. Conversely, ARIMA, focusing on the AutoRegressive (AR) component, is effective for modeling **shorter-term** relationships. While machine learning techniques typically perform better in the short term than the long term.
 
