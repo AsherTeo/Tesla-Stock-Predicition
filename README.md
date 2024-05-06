@@ -1,5 +1,17 @@
 # Tesla Stock Predicition
 
+## Table of Contents
+
+1) [Overview](#overview)
+2) [Objective](#objective)
+
+## Overview
+
+In this project, our primary focus is on predicting Tesla's stock using various methodologies, including ARIMA, machine learning techniques such as Linear Regression and Tree-based methods, as well as LSTM. The dataset is sourced using the `yfinance` library, encompassing data from January 1, 2019, to April 29, 2024.
+
+## Objective
+
+
 ## Result
 
 The table presented below is sorted based on the R2 score of each model.
