@@ -7,22 +7,22 @@
 
 ## Overview
 
-
-In this project, we analyzed Tesla stock data using the `yfinance` library, spanning from January 1, 2019, to April 29, 2024, and focusing on the 'Close' column. Employing **LSTM** with `TensorFlow`, we experimented with various window sizes—7, 30, and 60 days—for forecasting, configuring a batch size of 8, employing two layers with 50 neurons each, and training for 400 epochs.
+In this project, we analyzed Tesla stock data using the `yfinance` library, spanning from January 1, 2019, to April 29, 2024, and focusing on the 'Close' column. Employing Long Short Term Memory (**LSTM**) with `TensorFlow`, we experimented with various window sizes—7, 30, and 60 days—for forecasting, configuring a batch size of 8, employing two layers with 50 neurons each, and training for 400 epochs.
 
 We also explored the AutoRegressive (AR) component of **ARIMA**, determining the optimal AR component (p) with the `statsmodels` library and PACF Plot. Additionally, we investigated machine learning algorithms like linear regression, Random Forest, and XGBoost, converting the data into a supervised learning format to assess their effectiveness in time series forecasting.
 
+Finally, we compared the results obtained from different algorithms using metrics such as MAE (Mean Absolute Error), RMSE (Root Mean Square Error), and MAPE (Mean Absolute Percentage Error) to assess their performance.
 
 ## Objective
-with various prediction methods, employing `TensorFlow` for LSTM (Long Short-Term Memory ), `Statsmodels` for ARIMA, and `scikit-learn` machine learning algorithms like linear regression and tree-based methods. 
 
-LSTM, known for its proficiency in forecasting long sequences of data due to its memory cells and gating mechanisms, excels at capturing **long-term** dependencies. Conversely, ARIMA, focusing on the AutoRegressive (AR) component, is effective for modeling **shorter-term** relationships. While machine learning techniques typically perform better in the short term than the long term.
 
-My objective is to explore different window sizes using various algorithms and learning rates for LSTM to determine the optimal approach for stock prediction. Additionally, I aim to identify which algorithm performs best for particular window sizes.
+## Methodology
 
-For metrics, we experimented with MAE (Mean Absolute Error), RMSE (Root Mean Square Error), and MAPE (Mean Absolute Percentage Error), with a primary focus on MAPE due to its relevance in time series analysis.
-1) Experiment with different window sizes - 7, 30, 60 for each algorthim
-2) Experiment with 
+**ARIMA** 
+1) Check if the graph is stationary by applying adf_test
+2) If adf_test is less than 0.05 mean it is stationary if not apply diffencing
+3) Repeated
+
 
 ## Result
 
