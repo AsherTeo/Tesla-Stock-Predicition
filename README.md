@@ -9,8 +9,10 @@
 
 In this project, I utilized the `yfinance` library to extract Tesla stock data and experimented with various prediction methods, including LSTM, ARIMA, and machine learning algorithms like linear regression. 
 
-LSTM, known for its proficiency in analyzing long sequences of data, was tested for its efficacy in long-term forecasting using `tensorflow` library. 
-In contrast, ARIMA `statsmodels` utilizes the PACF plot to determine the lag for the autoregressive component (p) is typically small. Additionally, machine learning techniques such as linear regression were explored to assess their suitability for shorter window predictions. The objective was to determine whether LSTM's longer window or ARIMA's shorter window, or perhaps machine learning algorithms, would yield superior predictions for Tesla's stock
+LSTM (Long Short-Term Memory) is a popular deep learning for predicting long sequences of data such as stock prices or text. Its unique structure includes memory cells and gating mechanisms that allow it to capture long-term dependencies in data, making it well-suited for tasks requiring understanding of context over extended periods. 
+
+ARIMA, or AutoRegressive Integrated Moving Average, is a widely used time series forecasting method. 
+
 
 ## Objective
 
