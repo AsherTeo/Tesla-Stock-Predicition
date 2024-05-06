@@ -7,13 +7,11 @@
 
 ## Overview
 
-In this project, we utilized the `yfinance` library to extract Tesla stock data and conducted experiments on the dataset spanning from January 1, 2019, to April 29, 2024. We focused exclusively on the 'Close' column of the data. Given LSTM's proficiency in forecasting long sequences of data, attributed to its memory cells and gating mechanisms, we employed `TensorFlow` to experiment with different window sizes—specifically 7, 30, and 60, corresponding to 1 week, 1 month, and 2 months, respectively. For LSTM, we set the batch size to 8, employed two layers of LSTM with 50 neurons each, added 1 dense layer, and included dropout regularization. The model was trained for 400 epochs.
+In this project, we utilized the `yfinance` library to extract Tesla stock data and conducted experiments on the dataset spanning from January 1, 2019, to April 29, 2024. We focused exclusively on the 'Close' column of the data. 
 
+Given our understanding that LSTM excels in forecasting long sequences of data due to its memory cells and gating mechanisms, which are proficient at capturing long-term dependencies, we have opted to utilize `TensorFlow` to experiment with different window sizes—specifically 7, 30, and 60, corresponding to 1 week, 1 month, and 2 months, respectively. For LSTM, we set the batch size to 8, employed two layers of LSTM with 50 neurons each, added 1 dense layer, and included dropout regularization. The model was trained for 400 epochs.
 
-
-
-
-
+ARIMA (AutoRegressive Integrated Moving Average), is a widely used statistical method for time series forecasting, effectively capturing a wide range of temporal behaviors, including trend, seasonality, and autocorrelation. However our project primarily emphasizes the AutoRegressive (AR) component. We identify the optimal AR component (p) by analyzing the Partial Autocorrelation Function (PACF) Plot, selecting lagged values above the significance threshold. Generally, we favor smaller values to prevent overfitting
 
 
 with various prediction methods, employing `TensorFlow` for LSTM (Long Short-Term Memory ), `Statsmodels` for ARIMA, and `scikit-learn` machine learning algorithms like linear regression and tree-based methods. 
