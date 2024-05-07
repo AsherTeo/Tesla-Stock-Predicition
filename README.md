@@ -163,6 +163,14 @@ For window size:7
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/c60d05a1-86d9-4a34-8707-a0bb7072a951)
 
+For window size:30
+
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/33f71cfd-4fa3-47b0-bfcd-8b2b4c30e95f)
+
+For window size:60 (best overall)
+
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/766960fb-8e99-4440-8d52-e759d2d34354)
+
 
 ## Conclusion
 
