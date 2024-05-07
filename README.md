@@ -20,7 +20,7 @@ The objective of this project is to determine the optimal window size for foreca
 ## Methodology
 ### ARIMA
 
-![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/ddb6443d-dd53-47e5-800e-8f147d6decdf)
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/caa03545-a262-4254-a025-ae7b503da994)
 
 
 ## Result
