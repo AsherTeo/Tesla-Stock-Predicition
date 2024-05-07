@@ -22,12 +22,16 @@ The objective of this project is to determine the optimal window size for foreca
 **ARIMA** 
 1) Split the data into training and testing sets, with a first 80% for training and remaining  20% for testing.
 2) Check if the time series data is stationary by applying the Augmented Dickey-Fuller (ADF) test.
-3) If the p-value obtained from the ADF test is less than 0.05, the data is considered stationary. If not, apply differencing to the data to make it stationary.
-4) Repeat steps 2-3 until the time series data becomes stationary.
-5) Plot the Partial Autocorrelation Function (PACF) and determine the optimal lag (p).
-6) Apply Rolling Forecast by updating the model with testing data and generating forecasts one step ahead iteratively
-7) Evaluate the model's performance by comparing the predicted values with the actual test values using metrics such as Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and Mean Absolute Percentage Error (MAPE).
-8) Repeat step 5 - 6 for different p-values
+   
+   ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/4d60c9d5-7d7f-49cf-8b64-5c4dd1efb7fa)
+
+   
+4) If the p-value obtained from the ADF test is less than 0.05, the data is considered stationary. If not, apply differencing to the data to make it stationary.
+5) Repeat steps 2-3 until the time series data becomes stationary.
+6) Plot the Partial Autocorrelation Function (PACF) and determine the optimal lag (p).
+7) Apply Rolling Forecast by updating the model with testing data and generating forecasts one step ahead iteratively
+8) Evaluate the model's performance by comparing the predicted values with the actual test values using metrics such as Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and Mean Absolute Percentage Error (MAPE).
+9) Repeat step 5 - 6 for different p-values
 
 **LSTM**
 1) Create a window function **k** that transforms a sequence of past data points into features, with the original data as the target variable.
