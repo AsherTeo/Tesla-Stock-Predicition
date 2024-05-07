@@ -23,6 +23,7 @@ The objective of this project is to determine the optimal window size for foreca
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/2c2ea589-25c9-4068-8768-f0d601da0c85)
 
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/1fe818ad-40b7-434d-ab48-c041c21d58cd)
 
 ## Result
 
