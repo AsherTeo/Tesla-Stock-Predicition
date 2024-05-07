@@ -19,37 +19,7 @@ The objective of this project is to determine the optimal window size for foreca
 
 ## Methodology
 
-**ARIMA** 
-1) Split the data into training and testing sets, with a first 80% for training and remaining  20% for testing.
-2) Check if the time series data is stationary by applying the Augmented Dickey-Fuller (ADF) test.
-   
-   ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/4d60c9d5-7d7f-49cf-8b64-5c4dd1efb7fa)
 
-   
-4) If the p-value obtained from the ADF test is less than 0.05, the data is considered stationary. If not, apply differencing to the data to make it stationary.
-5) Repeat steps 2-3 until the time series data becomes stationary.
-6) Plot the Partial Autocorrelation Function (PACF) and determine the optimal lag (p).
-7) Apply Rolling Forecast by updating the model with testing data and generating forecasts one step ahead iteratively
-8) Evaluate the model's performance by comparing the predicted values with the actual test values using metrics such as Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and Mean Absolute Percentage Error (MAPE).
-9) Repeat step 5 - 6 for different p-values
-
-**LSTM**
-1) Create a window function **k** that transforms a sequence of past data points into features, with the original data as the target variable.
-2) Apply MinMaxScaler to normalize the data.
-3) Separate the features from the target variable, assigning the features as X and the target as y.
-4) Split the scaled data(X and y) into training and testing sets, with a first 80% for training and remaining  20% for testing.
-5) Implement a LSTM of 2 LSTM layers of 50 neutron with dropout, one dense layer
-6) Configure the batch size to 8 and number of epochs as 400.
-7) Perform experiments with different learning rates (0.01, 0.001, and 0.0001) for each **k** value.
-8) Evaluate the model's performance by comparing the predicted values with the actual test values using metrics such as Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and Mean Absolute Percentage Error (MAPE).
-9) Repeat step 1 - 8 with different **k** values - 7, 30 and 60.
-
-**Machine Learning**
-1) Prepare the data by following steps 1 to 4, involving window function creation, normalization, and splitting into training and testing sets.
-2) Conduct experiments using various machine learning algorithms such as Linear Regression, Ridge Regression, Gradient Boosting, Random Forest, and others for comparison purposes.
-3) Evaluate the performance of each model by comparing the predicted values with the actual test values using metrics including Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and Mean Absolute Percentage Error (MAPE).
-4) Rank the machine learning algorithms based on their performance in terms of MAPE, sorting them from best to worst.
-5) Repeat steps 1 to 4 for different k values: 7, 30, and 60.
 
 ## Result
 
@@ -184,4 +154,34 @@ For a window size of 60, **LSTM** outperforms both ARIMA and Linear Regression w
 
 ## Conclusion
 
+**ARIMA** 
+1) Split the data into training and testing sets, with a first 80% for training and remaining  20% for testing.
+2) Check if the time series data is stationary by applying the Augmented Dickey-Fuller (ADF) test.
+   
+   ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/4d60c9d5-7d7f-49cf-8b64-5c4dd1efb7fa)
 
+   
+4) If the p-value obtained from the ADF test is less than 0.05, the data is considered stationary. If not, apply differencing to the data to make it stationary.
+5) Repeat steps 2-3 until the time series data becomes stationary.
+6) Plot the Partial Autocorrelation Function (PACF) and determine the optimal lag (p).
+7) Apply Rolling Forecast by updating the model with testing data and generating forecasts one step ahead iteratively
+8) Evaluate the model's performance by comparing the predicted values with the actual test values using metrics such as Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and Mean Absolute Percentage Error (MAPE).
+9) Repeat step 5 - 6 for different p-values
+
+**LSTM**
+1) Create a window function **k** that transforms a sequence of past data points into features, with the original data as the target variable.
+2) Apply MinMaxScaler to normalize the data.
+3) Separate the features from the target variable, assigning the features as X and the target as y.
+4) Split the scaled data(X and y) into training and testing sets, with a first 80% for training and remaining  20% for testing.
+5) Implement a LSTM of 2 LSTM layers of 50 neutron with dropout, one dense layer
+6) Configure the batch size to 8 and number of epochs as 400.
+7) Perform experiments with different learning rates (0.01, 0.001, and 0.0001) for each **k** value.
+8) Evaluate the model's performance by comparing the predicted values with the actual test values using metrics such as Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and Mean Absolute Percentage Error (MAPE).
+9) Repeat step 1 - 8 with different **k** values - 7, 30 and 60.
+
+**Machine Learning**
+1) Prepare the data by following steps 1 to 4, involving window function creation, normalization, and splitting into training and testing sets.
+2) Conduct experiments using various machine learning algorithms such as Linear Regression, Ridge Regression, Gradient Boosting, Random Forest, and others for comparison purposes.
+3) Evaluate the performance of each model by comparing the predicted values with the actual test values using metrics including Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and Mean Absolute Percentage Error (MAPE).
+4) Rank the machine learning algorithms based on their performance in terms of MAPE, sorting them from best to worst.
+5) Repeat steps 1 to 4 for different k values: 7, 30, and 60.
