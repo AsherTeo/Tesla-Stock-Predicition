@@ -157,7 +157,7 @@ The table presented below is sorted based on the R2 score of each model.
 
 </details>
 
-## Best Model
+## Best Model for each window size
 
 For window size:7
 
@@ -170,10 +170,13 @@ For window size:30
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/33f71cfd-4fa3-47b0-bfcd-8b2b4c30e95f)
 
+For a window size of 30, **LSTM** outperforms both ARIMA and Linear Regression with a MAPE of **2.2712**. This suggests that as the window size increases, ARIMA and machine learning approaches begin to perform poorly.
+
 For window size:60 (best overall)
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/766960fb-8e99-4440-8d52-e759d2d34354)
 
+For a window size of 60, **LSTM** outperforms both ARIMA and Linear Regression with an impressive best MAPE score of **2.2692**. This highlights the strength of LSTM in handling longer sequences of data. Meanwhile, ARIMA, Linear Regression, and other machine learning models may struggle with this larger window size, possibly due to overfitting issues. 
 
 ## Conclusion
 
