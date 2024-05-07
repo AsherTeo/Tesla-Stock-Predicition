@@ -41,8 +41,11 @@ The objective of this project is to determine the optimal window size for foreca
 9) Repeat step 1 - 8 with different **k** values - 7, 30 and 60.
 
 **Machine Learning**
-1) Similar to LSTM, repeat step 1 - step 4
-2) 
+1) Prepare the data by following steps 1 to 4, involving window function creation, normalization, and splitting into training and testing sets.
+2) Conduct experiments using various machine learning algorithms such as Linear Regression, Ridge Regression, Gradient Boosting, Random Forest, and others for comparison purposes.
+3) Evaluate the performance of each model by comparing the predicted values with the actual test values using metrics including Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and Mean Absolute Percentage Error (MAPE).
+4) Rank the machine learning algorithms based on their performance in terms of MAPE, sorting them from best to worst.
+5) Repeat steps 1 to 4 for different k values: 7, 30, and 60.
 
 ## Result
 
@@ -153,3 +156,14 @@ The table presented below is sorted based on the R2 score of each model.
 | Elastic Net           | 53.1747   |  63.679  |   22.055  |
 
 </details>
+
+## Best Model
+
+For window size:7
+
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/c60d05a1-86d9-4a34-8707-a0bb7072a951)
+
+
+## Conclusion
+
+
