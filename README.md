@@ -22,11 +22,9 @@ The objective of this project is to determine the optimal window size for foreca
 ARIMA, a time series forecasting technique, integrates autoregressive (AR) and moving average (MA) components. The AR component employs past observations of a variable to predict its current value, while the MA component focuses on the relationship between the current value of a series and past prediction errors.
 
 Stock prices are often non-stationarity due to trends and seasonality. Therefore, autocorrelation function (ACF) and partial autocorrelation function (PACF) plots are used to analyze these patterns and characteristics.
-
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/b3d3b5d8-c153-4938-a25b-ea7bbb4e394f)
 
-We can observe that most of the lagged values in the ACF plots are close to 1, indicating the presence of a strong autocorrelation, typically associated with trends and non-stationarity. To formally test for autocorrelation in the time series data, we can employ the Ljung-Box test. This statistical test evaluates whether there are significant autocorrelations in the data at different lags.
-
+We can observe that most of the lagged values in the ACF plots are close to 1, suggesting a strong autocorrelation, which is indicative of non-stationarity. Another robust method to assess stationarity is by applying the Augmented Dickey-Fuller (ADF) test. ADF testing helps ascertain whether differencing is necessary to achieve stationarity in the data.
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/1fe818ad-40b7-434d-ab48-c041c21d58cd)
 
