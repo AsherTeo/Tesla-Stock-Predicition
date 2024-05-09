@@ -44,10 +44,8 @@ Before applying rolling forecasts, ARIMA models may struggle to accurately predi
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/5b66ab7f-7888-45c4-b684-6982b10a5c4c)
 
-### Result
-
 | Model                  |    MAE    |   RMSE   |  MAPE (%) | 
-|------------------------|-----------|----------|-----------|
+|:------------------------:|:-----------:|:----------:|:-----------:|
 | **ARIMA(7,1,0)**       |  4.98714 | 6.7420   | **2.28894**   |
 | ARIMA(9,1,0)       |  5.03233 | 6.7649   | 2.31162  |
 | ARIMA(18,1,0)      |  5.13619 | 6.8585   | 2.35835   |
@@ -79,6 +77,16 @@ The LSTM model comprises 2 layers of LSTM with 50 neurons each, incorporating dr
 |     60      | 0.0001 |   5.5312 |   7.3248 | 2.5644 |
 
 The optimal configuration for the LSTM model is a window size of 60, coupled with a learning rate of 0.01, achieving a MAPE of 2.2714%.
+
+## Machine Learning
+
+| Window Size| Model                  |    MAE    |   RMSE   |  MAPE (%) | 
+|:------------------------:|:-----------:|:----------:|:-----------:|
+|      7      | **Linear Regression**       |  4.9843 | 6.7427   | **2.28956**   |
+|      7       Gradient Boosting       |  5.7977 | 7.5918   | 2.69867  |
+|      7      | Extra Tree      |  5.9703 | 8.0101   | 2.78426   |
+|      7      | Random Forest     |  6.0308 | 8.1381   | 2.84164   |
+
 
 ## Result
 
