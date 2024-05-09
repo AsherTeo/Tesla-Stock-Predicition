@@ -42,6 +42,16 @@ Before applying rolling forecasts, ARIMA models may struggle to accurately predi
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/b985be8e-8299-4fb8-8f80-4ec62ef39087)
 
+
+### Result
+
+| Model                  |    MAE    |   RMSE   |  MAPE (%) | 
+|------------------------|-----------|----------|-----------|
+| **ARIMA(7,1,0)**       |  4.98714 | 6.7420   | **2.28894**   |
+| **ARIMA(9,1,0)**       |  5.03233 | 6.7649   | 2.31162  |
+| **ARIMA(18,1,0)**      |  5.13619 | 6.8585   | 2.35835   |
+| **ARIMA(24,1,0)**      |  4.987147 | 6.7420   | 2.28894   |
+
 ## Result
 
 The table presented below is sorted based on the R2 score of each model.
