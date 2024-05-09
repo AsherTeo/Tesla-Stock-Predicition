@@ -19,7 +19,9 @@ The objective of this project is to determine the optimal window size for foreca
 
 ## ARIMA
 
-ARIMA, a time series forecasting technique, combines autoregressive (AR) and moving average (MA) components. The AR component utilizes past observations of a variable to predict its current value. By analyzing the autocorrelation structure of the time series, an AR model can identify patterns and dependencies within the data, facilitating prediction and forecasting of future values. The MA component, on the other hand, focuses on the relationship between the current value of a series and past prediction errors. By using the autocorrelation structure of these errors, an MA model can capture short-term dependencies and fluctuations in the data, thereby assisting in forecasting future values.
+ARIMA, a time series forecasting technique, combines autoregressive (AR) and moving average (MA) components. The AR component utilizes past observations of a variable to predict its current value. By analyzing the autocorrelation structure of the time series, an AR model can identify patterns and dependencies within the data, facilitating prediction and forecasting of future values. 
+
+The MA component, on the other hand, focuses on the relationship between the current value of a series and past prediction errors. By using the autocorrelation structure of these errors, an MA model can capture short-term dependencies and fluctuations in the data, thereby assisting in forecasting future values.
 
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/caa03545-a262-4254-a025-ae7b503da994)
