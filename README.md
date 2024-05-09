@@ -19,7 +19,7 @@ The objective of this project is to determine the optimal window size for foreca
 
 ## ARIMA
 
-![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/b688e29d-9b20-412f-b1aa-9ffaba9f1cf5)
+ARIMA is one of a time series forecasting techinque that combine autoregressive (AR) and moving average (MA) components. The AR components used lagged values to determine if there is any correlation by modeling a linear combination while MA components 
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/caa03545-a262-4254-a025-ae7b503da994)
 
