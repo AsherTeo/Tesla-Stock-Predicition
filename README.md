@@ -53,9 +53,28 @@ Before applying rolling forecasts, ARIMA models may struggle to accurately predi
 | **ARIMA(18,1,0)**      |  5.13619 | 6.8585   | 2.35835   |
 | **ARIMA(24,1,0)**      |  5.23434 | 6.9381   | 2.40312   |
 
+ARIMA(7,1,0) is the optimal ARIMA model.
+
 ## LSTM
 
 Long Short-Term Memory (LSTM) is a popular time series forecasting model for processing  long sequence of data due to their unique architecture. In short, LSTMs utilize memory cells and gating mechanisms to manage information flow, retaining essential data over time while filtering out irrelevant information. These features enable LSTMs to effectively capture long-term dependencies in data sequences, addressing issues like the vanishing gradient problem. 
+
+In this experiment, I will  explore various window functions including 7, 30, and 60, alongside different learning rates such as 0.01, 0.001, and 0.0001. The goal is to determine the optimal configuration for the task at hand.
+
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/05244cb0-1996-4f9b-9dd4-6cced44a9d9c)
+
+
+Window Size | Model                  |    MAE    |   RMSE   |  MAPE (%) | 
+|-----------|------------------------|-----------|----------|-----------|
+| 7         | LR = 0.01              |    5.0593 |  6.8471  |   2.3312  |
+| 7         | LR = 0.001             |    4.9757 |  6.7710  |   2.2895  |
+|7          | LR = 0.0001            |   5.4357  | 7.2619   | 2.5173    |
+| 30         | LR = 0.01              |    5.0593 |  6.8471  |   2.3312  |
+| 30         | LR = 0.001             |    4.9757 |  6.7710  |   2.2895  |
+|30          | LR = 0.0001            |   5.4357  | 7.2619   | 2.5173    |
+| 60         | LR = 0.01              |    5.0593 |  6.8471  |   2.3312  |
+| 60        | LR = 0.001             |    4.9757 |  6.7710  |   2.2895  |
+|60          | LR = 0.0001            |   5.4357  | 7.2619   | 2.5173    |
 
 ## Result
 
