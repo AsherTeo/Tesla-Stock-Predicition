@@ -23,7 +23,8 @@ ARIMA, a time series forecasting technique, integrates autoregressive (AR) and m
 
 Stock prices are often non-stationarity due to trends and seasonality. Therefore, autocorrelation function (ACF) and partial autocorrelation function (PACF) plots are used to analyze these patterns and characteristics.
 
-![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/a04f8cee-4aa5-4e47-b8d9-325246f45f8a)
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/367768f6-73c5-4bb1-bb34-52f13727ead1)
+
 
 We can observe that most of the lagged values in the ACF plots are close to 1, indicating the presence of a strong autocorrelation, typically associated with trends and non-stationarity. To formally test for autocorrelation in the time series data, we can employ the Ljung-Box test. This statistical test evaluates whether there are significant autocorrelations in the data at different lags.
 
