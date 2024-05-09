@@ -80,12 +80,13 @@ The optimal configuration for the LSTM model is a window size of 60, coupled wit
 
 ## Machine Learning
 
-| Window Size| Model                  |    MAE    |   RMSE   |  MAPE (%) | 
-|:------------------------:|:-----------:|:----------:|:-----------:|
-|      7      | **Linear Regression**       |  4.9843 | 6.7427   | **2.28956**   |
-|      7       Gradient Boosting       |  5.7977 | 7.5918   | 2.69867  |
-|      7      | Extra Tree      |  5.9703 | 8.0101   | 2.78426   |
-|      7      | Random Forest     |  6.0308 | 8.1381   | 2.84164   |
+| Window Size | Model               |    MAE   |   RMSE   | MAPE (%) |
+|:-----------:|:-------------------:|---------:|---------:|---------:|
+|      7      | Linear Regression   |   4.9843 |   6.7427 |  2.28956 |
+|      7      | Gradient Boosting   |   5.7977 |   7.5918 |  2.69867 |
+|      7      | Extra Tree          |   5.9703 |   8.0101 |  2.78426 |
+|      7      | Random Forest       |   6.0308 |   8.1381 |  2.84164 |
+
 
 
 ## Result
