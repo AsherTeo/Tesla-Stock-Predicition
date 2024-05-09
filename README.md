@@ -25,6 +25,7 @@ Stock prices are often non-stationarity due to trends and seasonality. Therefore
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/b3d3b5d8-c153-4938-a25b-ea7bbb4e394f)
 
 We can observe that most of the lagged values in the ACF plots are close to 1, suggesting a strong autocorrelation, which is indicative of non-stationarity. Another robust method to assess stationarity is by applying the Augmented Dickey-Fuller (ADF) test. ADF testing helps ascertain whether differencing is necessary to achieve stationarity in the data.
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/51ed2387-997d-4163-be0d-d7ebdbad08e7)
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/1fe818ad-40b7-434d-ab48-c041c21d58cd)
 
