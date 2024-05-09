@@ -19,13 +19,13 @@ The objective of this project is to determine the optimal window size for foreca
 
 ## ARIMA
 
-ARIMA, a time series forecasting technique, combines autoregressive (AR) and moving average (MA) components. The AR component utilizes past observations of a variable to predict its current value. By analyzing the autocorrelation structure of the time series, an AR model can identify patterns and dependencies within the data, facilitating prediction and forecasting of future values. 
+ARIMA, a time series forecasting technique, integrates autoregressive (AR) and moving average (MA) components. The AR component employs past observations of a variable to predict its current value, while the MA component focuses on the relationship between the current value of a series and past prediction errors.
 
-The MA component, on the other hand, focuses on the relationship between the current value of a series and past prediction errors. By using the autocorrelation structure of these errors, an MA model can capture short-term dependencies and fluctuations in the data, thereby assisting in forecasting future values.
-
+Stock prices are often non-stationarity due to trends and seasonality. Therefore, autocorrelation function (ACF) and partial autocorrelation function (PACF) plots are used to analyze these patterns and characteristics.
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/caa03545-a262-4254-a025-ae7b503da994)
 
+We can observe that most of the lagged values in the ACF plots are close to 1, indicating the presence of a strong autocorrelation, typically associated with trends and non-stationarity. To formally test for autocorrelation in the time series data, we can employ the Ljung-Box test. This statistical test evaluates whether there are significant autocorrelations in the data at different lags.
 
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/1fe818ad-40b7-434d-ab48-c041c21d58cd)
