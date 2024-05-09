@@ -85,15 +85,12 @@ The optimal configuration for the LSTM model is a window size of 60, coupled wit
 |      **7**      | **Linear Regression**   |   4.9843 |   6.7427 |  **2.28956** |
 |      7      | Gradient Boosting   |   5.7977 |   7.5918 |  2.69867 |
 |      7      | Extra Tree          |   5.9703 |   8.0101 |  2.78426 |
-|      7      | Random Forest       |   6.0308 |   8.1381 |  2.84164 |
 |      30      | Linear Regression   |   5.2877 |   6.9560 |  2.4366 |
 |      30      | Gradient Boosting   |   5.7207 |   7.5830 |  2.67155 |
 |      30      | Extra Tree          |   6.0142 |   8.0839 |  2.7890 |
-|      30      | Random Forest       |   6.0393 |   7.9031 |  2.81460 |
 |      60      | Linear Regression   |   5.5622 |   7.2369 |  2.57045 |
 |      60      | Gradient Boosting   |   5.6854 |   7.4822 |  2.65154 |
 |      60      | Random Forest      |   5.72054 |   7.6123 |  2.67572 |
-|      60      | Extra Tree       |   5.9374 |   7.8946 |  2.75694 |
 
 
 
