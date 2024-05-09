@@ -80,7 +80,7 @@ The optimal configuration for the LSTM model is a window size of 60, coupled wit
 
 ## Machine Learning
 
-![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/43c1d70a-fd2c-432f-bbaf-cbfefe7bc7a7)
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/957ceda5-323a-4fa4-8d81-b3b1951c207b)
 
 
 | Window Size | Model               |    MAE   |   RMSE   | MAPE (%) |
