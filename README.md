@@ -59,7 +59,7 @@ ARIMA(7,1,0) is the optimal ARIMA model.
 
 Long Short-Term Memory (LSTM) is a popular time series forecasting model for processing  long sequence of data due to their unique architecture. In short, LSTMs utilize memory cells and gating mechanisms to manage information flow, retaining essential data over time while filtering out irrelevant information. These features enable LSTMs to effectively capture long-term dependencies in data sequences, addressing issues like the vanishing gradient problem. 
 
-In this experiment, I will  explore various window functions including 7, 30, and 60, alongside different learning rates such as 0.01, 0.001, and 0.0001. The goal is to determine the optimal configuration for the task at hand.
+In this experiment, I will  explore various window functions including 7, 30, and 60, alongside different learning rates such as 0.01, 0.001, and 0.0001. The goal is to determine the optimal configuration for the task.
 
 The LSTM model comprises 2 layers of LSTM with 50 neurons each, incorporating dropout regularization, followed by one dense layer. Training is performed with a batch size of 8 over 400 epochs.
 
