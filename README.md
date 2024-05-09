@@ -61,6 +61,8 @@ Long Short-Term Memory (LSTM) is a popular time series forecasting model for pro
 
 In this experiment, I will  explore various window functions including 7, 30, and 60, alongside different learning rates such as 0.01, 0.001, and 0.0001. The goal is to determine the optimal configuration for the task at hand.
 
+The LSTM model comprises 2 layers of LSTM with 50 neurons each, incorporating dropout regularization, followed by one dense layer. Training is performed with a batch size of 8 over 400 epochs.
+
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/05244cb0-1996-4f9b-9dd4-6cced44a9d9c)
 
 
@@ -76,6 +78,7 @@ In this experiment, I will  explore various window functions including 7, 30, an
 |     60      | 0.001  |   5.0140 |   6.8050 | 2.3124 |
 |     60      | 0.0001 |   5.5312 |   7.3248 | 2.5644 |
 
+The optimal configuration for the LSTM model is a window size of 60, coupled with a learning rate of 0.01, achieving a MAPE of 2.2714%.
 
 ## Result
 
