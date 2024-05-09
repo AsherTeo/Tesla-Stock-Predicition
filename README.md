@@ -76,9 +76,13 @@ The LSTM model comprises 2 layers of LSTM with 50 neurons each, incorporating dr
 |     60      | 0.001  |   5.0140 |   6.8050 | 2.3124 |
 |     60      | 0.0001 |   5.5312 |   7.3248 | 2.5644 |
 
-The optimal configuration for the LSTM model is a window size of 60, coupled with a learning rate of 0.01, achieving a MAPE of 2.2714%.
+The optimal configuration for the LSTM model is a window size of 60, coupled with a learning rate of 0.01, achieving a MAPE of **2.2714%**.
 
 ## Machine Learning
+
+In my final experiment, I will explore various machine learning algorithms including Linear Regression, Gradient Boosting, Extra Trees, XGBoost, etc. I will also investigate different window sizes similar to those used in the LSTM model. 
+
+After evaluation, it was found that Linear Regression achieved the lowest MAPE of **2.28956%**, making it the best model compared to the others.
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/957ceda5-323a-4fa4-8d81-b3b1951c207b)
 
