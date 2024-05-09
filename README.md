@@ -34,6 +34,14 @@ After first differencing the time series, we can observe that the mean and varie
 
 To determine the p components, we examine the PACF plot, where we observe four lagged values above the significance line at lags 7, 9, 18, and 24. Since I havee decided not to include the MA component, I'll focus on experimenting with the AR component using these specific lagged values (7, 9, 18, and 24).
 
+I splited the dataset into two parts, using the first 80% for training and remaining 20% for testing. 
+
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/3613a75d-bacb-4229-b8b5-a8633d9aedd4)
+
+Before applying rolling forecasts, ARIMA models may struggle to accurately predict distant future data points, leading to uncertainty. A beneficial approach is to implement rolling forecasts. In rolling forecasts, the ARIMA model is continually updated using testing data to predict the next data point. By iteratively refining the model with newly observed data, rolling forecasts can provide more reliable and adaptive predictions. 
+
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/b985be8e-8299-4fb8-8f80-4ec62ef39087)
+
 ## Result
 
 The table presented below is sorted based on the R2 score of each model.
