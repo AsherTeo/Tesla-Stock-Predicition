@@ -52,6 +52,10 @@ Before applying rolling forecasts, ARIMA models may struggle to accurately predi
 | **ARIMA(18,1,0)**      |  5.13619 | 6.8585   | 2.35835   |
 | **ARIMA(24,1,0)**      |  4.987147 | 6.7420   | 2.28894   |
 
+## LSTM
+
+Long Short-Term Memory (LSTM) is a popular time series forecasting model for processing  long sequence of data due to their unique architecture. In short, LSTMs utilize memory cells and gating mechanisms to manage information flow, retaining essential data over time while filtering out irrelevant information. These features enable LSTMs to effectively capture long-term dependencies in data sequences, addressing issues like the vanishing gradient problem. 
+
 ## Result
 
 The table presented below is sorted based on the R2 score of each model.
