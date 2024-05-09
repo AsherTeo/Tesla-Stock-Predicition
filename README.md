@@ -40,8 +40,9 @@ I splited the dataset into two parts, using the first 80% for training and remai
 
 Before applying rolling forecasts, ARIMA models may struggle to accurately predict distant future data points, leading to uncertainty. A beneficial approach is to implement rolling forecasts. In rolling forecasts, the ARIMA model is continually updated using testing data to predict the next data point. By iteratively refining the model with newly observed data, rolling forecasts can provide more reliable and adaptive predictions. 
 
-![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/b985be8e-8299-4fb8-8f80-4ec62ef39087)
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/e2c4d525-8cfa-43a0-b97f-3034c5f13606)
 
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/5b66ab7f-7888-45c4-b684-6982b10a5c4c)
 
 ### Result
 
@@ -50,7 +51,7 @@ Before applying rolling forecasts, ARIMA models may struggle to accurately predi
 | **ARIMA(7,1,0)**       |  4.98714 | 6.7420   | **2.28894**   |
 | **ARIMA(9,1,0)**       |  5.03233 | 6.7649   | 2.31162  |
 | **ARIMA(18,1,0)**      |  5.13619 | 6.8585   | 2.35835   |
-| **ARIMA(24,1,0)**      |  4.987147 | 6.7420   | 2.28894   |
+| **ARIMA(24,1,0)**      |  5.23434 | 6.9381   | 2.40312   |
 
 ## LSTM
 
