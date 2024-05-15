@@ -110,4 +110,22 @@ After evaluation, it was found that Linear Regression achieved the lowest MAPE o
 |      60      | Gradient Boosting   |   5.6854 |   7.4822 |  2.65154 |
 |      60      | Random Forest      |   5.72054 |   7.6123 |  2.67572 |
 
+ ## Installation
+  
+<details>
+  <summary>Installation</summary>
+  
+The code is developed using Python version 3.10.14  If Python is not already installed on your system, you can download it [here](https://www.python.org/downloads/). If your current Python version is lower than 3.10.14  you can upgrade it using the pip package manager. Make sure you have the latest version of pip installed. To install the necessary packages and libraries, execute the following command in the project directory after cloning the repository:
 
+```bash
+pip install -r requirements.txt
+```
+For window GPU installation, make sure python version is 3.7 - 3.10, tensorflow version < 2.11, cuda tool kit = 11.2 and cudnn = 8.1.0
+
+```bash
+conda create --name yourenv python=3.10
+conda activate yourenv
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+pip install tensorflow==2.10 or pip install -r requirements.txt
+```
+  </details>
