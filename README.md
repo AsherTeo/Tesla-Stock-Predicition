@@ -106,7 +106,7 @@ We will be ulitizing `optuna` on some of the parameters such as learning rate, n
 |      30     | 0.0019745514796305342  | 16 | 256 | 8 |5.0728 | 6.9158 | 2.3362 |
 |      60     | 0.0019722952704556334  | 8 | 256|2 |5.4437 | 7.1714 | 2.5046 |
 
-
+The best configuration for Transformer is 7 window size, learning rate of 0.0014332163970285864, 8 heads with a size of 512 and 4 feed forward dimension of **2.2982%**. 
 ## Machine Learning
 
 In my final experiment, I will explore various machine learning algorithms including Linear Regression, Gradient Boosting, Extra Trees, XGBoost, etc. I will also investigate different window sizes similar to those used in the LSTM model. 
