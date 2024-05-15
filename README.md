@@ -59,7 +59,7 @@ Long Short-Term Memory (LSTM) is a popular time series forecasting model for pro
 
 In this experiment, I will  explore various window functions including 7, 30, and 60, alongside different learning rates determined by `optuna`. The goal is to determine the optimal configuration for the task.
 
-The LSTM model comprises 2 layers of LSTM with 50 neurons each, incorporating dropout regularization, followed by one dense layer. Training is performed with a batch size of 8 over 400 epochs.
+The LSTM model comprises 2 layers of LSTM with 50 neurons each, incorporating dropout regularization, followed by one dense layer. Training is performed with a batch size of 32 over 400 epochs.
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/e2a2ba56-f509-47b5-8cf6-a1e24e645e5f)
 
