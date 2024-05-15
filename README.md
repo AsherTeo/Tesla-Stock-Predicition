@@ -75,7 +75,9 @@ The optimal configuration for the LSTM model is a window size of 30, coupled wit
 
 ## Transformer
 
-Transformers are popular deep learning model known for their capability to handle sequential data by using self-attention mechanisms, which not only dominated in NLP but also have proven their versatility across various domains, including computer vision tasks. Our experiment aims to explore the efficacy of transformers in handling time series tasks, leveraging their self-attention mechanisms and adaptability to sequential data using different window size. We will be ulitizing `optuna` on some of the parameters such as learning rate, number of heads, head size and number of feed forward dimensions. 
+Transformers are popular deep learning model known for their capability to handle sequential data by using self-attention mechanisms, which not only dominated in NLP but also have proven their versatility across various domains, including computer vision tasks. Our experiment aims to explore the efficacy of transformers in handling time series tasks, leveraging their self-attention mechanisms and adaptability to sequential data using different window size. 
+
+We will be ulitizing `optuna` on some of the parameters such as learning rate, number of heads, head size and number of feed forward dimensions. 
 
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/6df1a967-adb1-445e-9a3c-fc0dd39d42b5)
