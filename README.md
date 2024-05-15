@@ -25,7 +25,9 @@ Relative Strength Index (RSI) is the most popular technical indicator to gauage 
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/23d6fecb-ef3c-41d1-b68a-c8c2040859ff)
 
-However, 
+In addition to these overbought and oversold conditions, traders also closely monitor **bearish and bullish divergences** in the Relative Strength Index (RSI).
+
+For my upcoming update, I intend to develop a simulator that calculates profit based on the invested amount, taking into account bearish and bullish divergences in the RSI.
 
 ## Time Series
 
