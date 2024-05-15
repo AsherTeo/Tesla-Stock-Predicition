@@ -75,6 +75,16 @@ The optimal configuration for the LSTM model is a window size of 30, coupled wit
 
 ## Transformer
 
+Transformers are popular deep learning model known for their capability to handle sequential data by using self-attention mechanisms espeically NLP tasks. Even computer vision task. They have been successfully applied to tasks in natural language processing and even in computer vision. Given their effectiveness, we are eager to explore how transformers can be used for time series tasks.
+
+
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/6df1a967-adb1-445e-9a3c-fc0dd39d42b5)
+
+| Window Size | Learning Rate       |    MAE   |   RMSE   | MAPE (%) |
+|:-----------:|:-------------:|:---------:|:---------:|:---------:|
+|      **7**      | 0.0014332163970285864   |   4.9899 |   6.7673 | **2.2982** |
+|      30     |  0.0019745514796305342  |   5.0728 |   6.9158 | 2.3362 |
+|      60      |  0.0019722952704556334 |   5.4437 |   7.1714 | 2.5046 |
 
 ## Machine Learning
 
