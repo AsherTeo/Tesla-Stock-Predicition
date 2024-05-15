@@ -19,7 +19,13 @@ The objective of this project is to determine the optimal window size for foreca
 
 ## Technical Analysis 
 
+Technical Analysis is a method used by traders and investors to forecast the future direction of the financial markets. Some of the popular technical analysis tools are MACD (Moving Average Convergence Divergence), Bollinger Bands , Relative Strength Index (RSI), and etc. 
+
+Relative Strength Index (RSI) is the most popular technical indicator to gauage the momentum  of the stock's price movements to determine whether it's currently in an overbought or oversold condition. Normally, when the RSI value reach above 70, it suggests that the stock may be overbought which highly indicate that the stock price will reversal in the near future. Conversely, when the RSI value descends below 30, it signals potential oversold conditions, implying an impending rise in stock price. 
+
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/23d6fecb-ef3c-41d1-b68a-c8c2040859ff)
+
+However, 
 
 ## Time Series
 
