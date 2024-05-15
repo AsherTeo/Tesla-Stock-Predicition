@@ -61,7 +61,7 @@ In this experiment, I will  explore various window functions including 7, 30, an
 
 The LSTM model comprises 2 layers of LSTM with 50 neurons each, incorporating dropout regularization, followed by one dense layer. Training is performed with a batch size of 8 over 400 epochs.
 
-![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/05244cb0-1996-4f9b-9dd4-6cced44a9d9c)
+![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/e2a2ba56-f509-47b5-8cf6-a1e24e645e5f)
 
 
 | Window Size | Learning Rate       |    MAE   |   RMSE   | MAPE (%) |
@@ -69,12 +69,7 @@ The LSTM model comprises 2 layers of LSTM with 50 neurons each, incorporating dr
 |      7      | 0.01   |   5.0380 |   6.8062 | 2.3312 |
 |      7      |  0.001  |   5.0064 |   6.8137 | 2.2895 |
 |      7      |  0.0001 |   5.5059 |   7.3359 | 2.5535 |
-|     30      |  0.01   |   4.9928 |   6.7465 | 2.3012 |
-|     30      | 0.001  |   4.9636 |   6.7909 | 2.2870 |
-|     30      | 0.0001 |   5.1538 |   6.9946 | 2.3765 |
-|     **60**      | **0.01**   |   4.9258 |   6.7241 | **2.2714** |
-|     60      | 0.001  |   5.0140 |   6.8050 | 2.3124 |
-|     60      | 0.0001 |   5.5312 |   7.3248 | 2.5644 |
+
 
 The optimal configuration for the LSTM model is a window size of 60, coupled with a learning rate of 0.01, achieving a MAPE of **2.2714%**.
 
