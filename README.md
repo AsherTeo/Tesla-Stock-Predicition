@@ -3,19 +3,23 @@
 ## Table of Contents
 
 1) [Overview](#overview)
-2) [Objective](#objective)
-
+2) [Technical Analysis ](#technical-analysis)
+3) [ARIMA](#ARIMA)
+4) [LSTM](#LSTM)
+5) [Transformer](#Transformer)
+6) [Machine Learning](#machine-learning)
+7) [Conclusion](#Conclusion)
+8) [Installation](#Installation)
+9) 
 ## Overview
 
-In this project, we analyzed Tesla stock data using the `yfinance` library, spanning from January 1, 2019, to April 29, 2024, and focusing on the 'Close' column. Employing Long Short Term Memory (**LSTM**) with `TensorFlow`, we experimented with various window sizes—7, 30, and 60 days—for forecasting, configuring a batch size of 8, employing two layers with 50 neurons each, and training for 400 epochs.
+In this project, we analyzed Tesla stock data using the `yfinance` library, spanning from January 1, 2019, to April 29, 2024, and focusing on the 'Close' column. The initial segment covered the **Technical Analysis**, wherein we explored indicators such as MACD (Moving Average Convergence Divergence), Relative Strength Index (RSI), and bearish and bullish divergences. These tools are instrumental in identifying trends and patterns, aiding in informed buy and sell decisions to follow market movements.
 
-We also explored the AutoRegressive (AR) component of **ARIMA**, determining the optimal AR component (p) with the `statsmodels` library and PACF Plot. Additionally, we investigated machine learning algorithms like linear regression, Random Forest, and XGBoost, converting the data into a supervised learning format to assess their effectiveness in time series forecasting.
+The subsequent part focusing on **Time Series**, where we employed various time series models including ARIMA, LSTM, Transformer and Machine learning techniques. For Long Short Term Memory (**LSTM**) with `TensorFlow`, we experimented with various window sizes—7, 30, and 60 days—for forecasting, configuring a batch size of 32, employing two layers with 50 neurons each, and training for 400 epochs.  Additionally, we explored the **Transformer** model, given its prominence in the field.
+
+Moreover, we explored the AutoRegressive (AR) component of **ARIMA**, determining the optimal AR component (p) with the `statsmodels` library and PACF Plot. Further, we investigated machine learning algorithms such as linear regression, Random Forest, and XGBoost, transforming the data into a supervised learning format to evaluate their efficacy in time series forecasting.
 
 Finally, we compared the results obtained from different algorithms using metrics such as MAE (Mean Absolute Error), RMSE (Root Mean Square Error), and MAPE (Mean Absolute Percentage Error) to assess their performance.
-
-## Objective
-
-The objective of this project is to determine the optimal window size for forecasting using ARIMA, LSTM, and machine learning algorithms. By experimenting with different window sizes, ranging from shorter to longer durations, the project aims to identify the most effective approach for predicting Tesla stock prices. This involves exploring how each method performs with various window sizes and comparing their accuracy in forecasting. Ultimately, the project seeks to understand whether shorter or longer window sizes are more suitable for each forecasting technique.
 
 ## Technical Analysis 
 
