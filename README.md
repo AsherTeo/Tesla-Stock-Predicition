@@ -10,7 +10,7 @@
 6) [Machine Learning](#machine-learning)
 7) [Conclusion](#Conclusion)
 8) [Installation](#Installation)
-9) 
+   
 ## Overview
 
 In this project, we analyzed Tesla stock data using the `yfinance` library, spanning from January 1, 2019, to April 29, 2024, and focusing on the 'Close' column. The initial segment covered the **Technical Analysis**, wherein we explored indicators such as MACD (Moving Average Convergence Divergence), Relative Strength Index (RSI), and bearish and bullish divergences. These tools are instrumental in identifying trends and patterns, aiding in informed buy and sell decisions to follow market movements.
