@@ -66,12 +66,12 @@ The LSTM model comprises 2 layers of LSTM with 50 neurons each, incorporating dr
 
 | Window Size | Learning Rate       |    MAE   |   RMSE   | MAPE (%) |
 |:-----------:|:-------------:|:---------:|:---------:|:---------:|
-|      7      | 0.01   |   5.0380 |   6.8062 | 2.3312 |
-|      7      |  0.001  |   5.0064 |   6.8137 | 2.2895 |
-|      7      |  0.0001 |   5.5059 |   7.3359 | 2.5535 |
+|      7      | 0.010645732663668563   |   4.9325 |   6.7327 | 2.2656 |
+|      **30**      |  0.010407419281699032  |   4.9169 |   6.7028 | **2.2587** |
+|      60      |  0.009866144058738683 |   4.9386 |   6.6488 | 2.2669 |
 
 
-The optimal configuration for the LSTM model is a window size of 60, coupled with a learning rate of 0.01, achieving a MAPE of **2.2714%**.
+The optimal configuration for the LSTM model is a window size of 30, coupled with a learning rate of 0.010407419281699032, achieving a MAPE of **2.2587%**.
 
 ## Machine Learning
 
