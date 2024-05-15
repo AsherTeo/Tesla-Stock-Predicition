@@ -115,6 +115,7 @@ After evaluation, it was found that Linear Regression achieved the lowest MAPE o
 
 ![image](https://github.com/AsherTeo/Tesla-Stock-Predicition/assets/78581569/957ceda5-323a-4fa4-8d81-b3b1951c207b)
 
+*I only list top 3 machine learning models for each window
 
 | Window Size | Model               |    MAE   |   RMSE   | MAPE (%) |
 |:-----------:|:-------------------:|:---------:|:---------:|:---------:|
