@@ -13,7 +13,7 @@
    
 ## Overview
 
-In this project, we analyzed Tesla stock data using the `yfinance` library, spanning from January 1, 2019, to April 29, 2024, and focusing on the 'Close' column. The initial segment covered the **Technical Analysis**, wherein we explored indicators such as MACD (Moving Average Convergence Divergence), Relative Strength Index (RSI), and bearish and bullish divergences. These tools are instrumental in identifying trends and patterns, aiding in informed buy and sell decisions to follow market movements.
+In this project, we analyzed Tesla stock data using the `yfinance` library, spanning from January 1, 2019, to April 29, 2024, and focusing on the 'Close' column. The initial segment covered the **Technical Analysis**, wherein we explored indicators such as Relative Strength Index (RSI), and bearish and bullish divergences. These tools are instrumental in identifying trends and patterns, aiding in informed buy and sell decisions to follow market movements.
 
 The subsequent part focusing on **Time Series**, where we employed various time series models including ARIMA, LSTM, Transformer and Machine learning techniques. For Long Short Term Memory (**LSTM**) with `TensorFlow`, we experimented with various window sizes—7, 30, and 60 days—for forecasting, configuring a batch size of 32, employing two layers with 50 neurons each, and training for 400 epochs.  Additionally, we explored the **Transformer** model, given its prominence in the field.
 
